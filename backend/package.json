@@ -2,16 +2,6 @@
   "name": "piiquante",
   "version": "1.0.0",
   "main": "server.js",
-  "author": "Judic Thomas",
-  "license": "ISC",
-  "description": "",
-  "scripts": {
-    "start": "nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "name": "piiquante",
-  "version": "1.0.0",
-  "main": "server.js",
   "author": "J-Portofolio",
   "license": "ISC",
   "description": "",
