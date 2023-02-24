@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
         // Décodage du token
         const tokenDecode = jsonwebtoken.verify(token, process.env.JWT_SECRET);
 
-        // Lecture de la de la valeur de clé 'userId' retournée par le décodage de token
+        // Lecture de la valeur de clé 'userId' retournée par le décodage de token
         // puis déclaration de l'ID authentique en tant que valeur de 'req.auth.userId'
         const userId = tokenDecode.userId;
         req.auth = {
